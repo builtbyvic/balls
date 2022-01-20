@@ -1,0 +1,113 @@
+.flex-item {
+    animation-delay: 2s;
+     animation-duration: 5s;
+}
+.flex-item-1 {
+    animation-name: redball;
+}
+@keyframes redball {
+    0% { 
+        left: 90%;
+    }
+    25% {
+        background-color: green;
+        left: 0;
+        top: 0;
+    }
+    50% {
+        background-color: yellow;
+        top: 90%;
+        left: 0;
+    }
+    75% {
+        background-color: blue;
+        left: 90%;
+        top: 90%;
+    }
+    100% {
+        background-color: red;
+        left: 90%;
+    }
+}
+.flex-item-2 {
+    animation-name: greenball;
+}
+@keyframes greenball {
+      0% { 
+        right: 90%;
+        top: 0;
+    }
+    25% {
+        background-color: yellow;
+        right: 90%;
+        top: 90%;
+    }
+    50% {
+        background-color: blue;
+        top: 90%;
+        right: 0;
+    }
+    75% {
+        background-color: red;
+        right: 0;
+        top: 0;
+    }
+    100% {
+        background-color:green;
+        right: 90%;
+    }
+}
+.flex-item-3 {
+    animation-name: yellowball;
+}
+@keyframes yellowball {
+      0% { 
+        top: 90%;
+    }
+    25% {
+        background-color: blue;
+        left: 90%;
+        top: 90%;
+    }
+    50% {
+        background-color:red;
+        top: 0;
+        left: 90%;
+    }
+    75% {
+        background-color: green;
+        left: 0;
+        top: 0;
+    }
+    100% {
+        background-color: yellow;
+        top: 90%;
+    }
+}
+.flex-item-4 {
+    animation-name: blueball;
+}
+@keyframes blueball {
+      0% { 
+        top: 90%;
+    }
+    25% {
+        background-color: red;
+        right: 0;
+        top: 0;
+    }
+    50% {
+        background-color: green;
+        top: 0;
+        right: 90%;
+    }
+    75% {
+        background-color: yellow;
+        right: 90%;
+        top: 90%;
+    }
+    100% {
+        background-color:blue;
+        top: 90%;
+    }
+}
