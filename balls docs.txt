@@ -1,3 +1,0 @@
-margin:0 auto; /*only centers block-level elements*/
-you can't get the coordinates of flexbox-positioned items by default.
-position:relative; /* relative to the position the element would have been in normal flow
